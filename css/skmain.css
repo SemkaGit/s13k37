@@ -1,0 +1,249 @@
+*,:before,:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #ffffff00
+}
+
+* {
+    --tw-ring-inset: var(--tw-empty, );
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59, 130, 246, .5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000
+}
+
+:root {
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4
+}
+
+:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+:-moz-ui-invalid {
+    box-shadow: none
+}
+
+::moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+::-webkit-inner-spin-button,::-webkit-outer-spin-button {
+    height: auto
+}
+
+::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+abbr[title] {
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit
+}
+
+body {
+    margin: 0;
+    font-family: inherit;
+    line-height: inherit
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji;
+    line-height: 1.5
+}
+
+.bg-hex-1ab394 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(0,0,0,var(--tw-bg-opacity))
+}
+
+.hover\:bg-hex-18a689:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(0,0,0,var(--tw-bg-opacity))
+}
+
+.bg-hex-be99f2 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(0,0,0,var(--tw-bg-opacity))
+}
+
+.hover\:bg-hex-a781c9:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(0,0,0,var(--tw-bg-opacity))
+}
+
+.rounded-5px {
+    border-radius: 5px
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex
+}
+
+.flex-row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row
+}
+
+.flex-col {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column
+}
+
+.flex-wrap {
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.justify-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center
+}
+
+.font-sans {
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,apple color emoji,segoe ui emoji,Segoe UI Symbol,noto color emoji
+}
+
+.font-bold {
+    font-weight: 700
+}
+
+.h-screen {
+    height: 100vh
+}
+
+.h-197px {
+    height: 197px
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem
+}
+
+.m-0 {
+    margin: 0
+}
+
+.p-0 {
+    padding: 0
+}
+
+.p-1 {
+    padding: .25rem
+}
+
+.text-white {
+    --tw-text-opacity: 1;
+    color: rgba(255,255,255,var(--tw-text-opacity))
+}
+
+.w-full {
+    width: 100%
+}
+
+.w-336px {
+    width: 336px
+}
+
+.gap-24px {
+    grid-gap: 24px;
+    gap: 24px
+}
+
+.ease-out {
+    -webkit-transition-timing-function: cubic-bezier(0,0,.2,1);
+    -o-transition-timing-function: cubic-bezier(0,0,.2,1);
+    transition-timing-function: cubic-bezier(0,0,.2,1)
+}
+
+.duration-250 {
+    -webkit-transition-duration: .25s;
+    -o-transition-duration: .25s;
+    transition-duration: .25s
+}
+
+@media(min-width: 640px) {
+    .sm\:h-360px {
+        height:360px
+    }
+
+    .sm\:text-4xl {
+        font-size: 2.25rem;
+        line-height: 2.5rem
+    }
+
+    .sm\:hover\:text-5xl:hover {
+        font-size: 3rem;
+        line-height: 1
+    }
+
+    .sm\:p-4 {
+        padding: 1rem
+    }
+
+    .sm\:w-612px {
+        width: 612px
+    }
+}
+
+.dayz_bg.svelte-iu17ag {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/885/587/817/gun-anime-mercedes-benz-koh-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: right bottom;
+    background-repeat: no-repeat
+}
+
+.dayz_bg.svelte-iu17ag:hover {
+    background-position: bottom -10px right 0;
+    font-size: 2.5rem;
+    line-height: 2.75rem
+}
+
+.divine_bg.svelte-iu17ag {
+    background-image: url(https://i.pinimg.com/736x/45/ef/ce/45efcef6a567f64daad1a604ab3524ed.jpg);
+    background-size: cover;
+    background-position: right bottom;
+    background-repeat: no-repeat
+}
+
+.divine_bg.svelte-iu17ag:hover {
+    background-position: bottom 0 right -10px;
+    font-size: 2.5rem;
+    line-height: 2.75rem
+}
